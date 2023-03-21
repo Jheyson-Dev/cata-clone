@@ -1,0 +1,9 @@
+.nav-link {
+  @apply py-4 text-xl text-text-primary font-semibold font-texto;
+}
+.nav-sublink {
+  @apply py-2 text-xl text-text-primary font-semibold font-texto;
+}
+.nav-button {
+  @apply py-2 flex justify-center items-center gap-2  text-xl bg-yellow-primary w-1/2 text-white font-semibold font-texto rounded-lg;
+}

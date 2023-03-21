@@ -11,7 +11,10 @@ module.exports = {
         'button-secondary': '#409eff',
         'banner-bg': '#003366',
       },
+      fontFamily: {
+        texto: ['Quicksand', 'sans-serif'],
+      },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 };

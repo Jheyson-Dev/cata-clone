@@ -1,0 +1,6 @@
+.input-contact {
+  @apply bg-[#fafafa] rounded-md focus:ring-0;
+}
+.label-contact {
+  @apply text-black text-sm;
+}
