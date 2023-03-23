@@ -1,0 +1,38 @@
+{
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": true,
+  "workbench.sideBar.location": "right",
+  "editor.fontSize": 13,
+  "workbench.colorTheme": "Theme (Italic)",
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "afterDelay",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "tabnine.experimentalAutoImports": true,
+  "editor.cursorSurroundingLines": 10,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", //Configurando Prettier como formateador por defecto
+
+  "prettier.singleQuote": true, // Formatear con comillas simples
+  "prettier.bracketSpacing": true,
+
+  "prettier.jsxSingleQuote": true, // Formatear con comillas simples los archivos jsx
+  "prettier.arrowParens": "avoid", // Formatear sin parentesis cuando el parametro es unico
+  "prettier.singleAttributePerLine": true,
+  "eslint.alwaysShowStatus": true, // Formatea solo un atributo html por linea
+  "prettier.proseWrap": "always",
+  //"prettier.endOfLine": "auto",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.quickSuggestionsDelay": 100,
+  "workbench.editor.autoLockGroups": {
+    "imagePreview.previewEditor": true
+  },
+  "reactSnippets.settings.prettierEnabled": true,
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  "window.menuBarVisibility": "compact",
+  "workbench.activityBar.visible": false
+}
