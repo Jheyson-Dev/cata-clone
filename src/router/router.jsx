@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
+import { ConsejoDirectivo } from '../components/pages/ConsejoDirectivo';
 import { HomePage } from '../components/pages/HomePage';
 import { NosotrosPage } from '../components/pages/NosotrosPage';
 import { PublicTemplate } from '../components/templates/PublicTemplate';
@@ -18,6 +19,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/consejo_directivo',
+        element: <ConsejoDirectivo />,
       },
       {
         path: '/administracion',
