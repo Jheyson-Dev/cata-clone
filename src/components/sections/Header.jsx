@@ -138,7 +138,9 @@ export const Header = () => {
                     className='nav-sublink'
                     onClick={handleNavClick}
                   >
-                    <NavLink>Administracion CATA</NavLink>
+                    <NavLink to={'/administracion'}>
+                      Administracion CATA
+                    </NavLink>
                   </div>
                 </li>
                 <li>

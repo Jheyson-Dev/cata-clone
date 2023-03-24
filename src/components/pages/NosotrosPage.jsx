@@ -1,17 +1,10 @@
 import './NosotrosPage.css';
-import banner from '../../assets/img/nosotros/Banner_Nosotros.webp';
+import { Banner } from '../sections/Banner';
 
 export const NosotrosPage = () => {
   return (
     <div>
-      <div className='banner h-[50vw] relative'>
-        <div className='bg-banner-bg opacity-60 w-full h-full'></div>
-        <div className='px-10'>
-          <div className='absolute top-[50%] text-white text-5xl font-extrabold border-l-8 border-yellow-primary px-2'>
-            Nosotros
-          </div>
-        </div>
-      </div>
+      <Banner text={'Nosotros'} />
       <div className='flex flex-col gap-10 py-20 px-10'>
         <div className='grid grid-cols-1 gap-10'>
           <div className='shadow-xl border-l-4 border-yellow-primary rounded-md'>

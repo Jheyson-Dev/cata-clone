@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
+import { Administracion } from '../components/pages/Administracion';
 import { ConsejoDirectivo } from '../components/pages/ConsejoDirectivo';
 import { HomePage } from '../components/pages/HomePage';
 import { NosotrosPage } from '../components/pages/NosotrosPage';
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/administracion',
+        element: <Administracion />,
       },
       {
         path: '/resenia_historica',
