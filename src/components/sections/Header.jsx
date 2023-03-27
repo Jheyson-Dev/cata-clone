@@ -87,16 +87,6 @@ export const Header = () => {
               </div>
             </li>
             <li>
-              <div className='nav-link'>
-                <NavLink
-                  to={'/nosotros'}
-                  onClick={handleNavClick}
-                >
-                  Propuesta Educativa
-                </NavLink>
-              </div>
-            </li>
-            <li>
               <div
                 className='nav-link'
                 onClick={handleSubMenu}
@@ -178,6 +168,16 @@ export const Header = () => {
                   </div>
                 </li>
               </ul>
+            </li>
+            <li>
+              <div className='nav-link'>
+                <NavLink
+                  to={'/propuesta_educativa'}
+                  onClick={handleNavClick}
+                >
+                  Propuesta Educativa
+                </NavLink>
+              </div>
             </li>
             <li>
               <div className='nav-link'>
