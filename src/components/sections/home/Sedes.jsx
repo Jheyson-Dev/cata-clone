@@ -1,7 +1,6 @@
 import fondo1 from '../../../assets/img/sedes/CATA_Oasis_Oficial.png';
 import fondo2 from '../../../assets/img/sedes/CATA_Jerusalen_Oficial.png';
 import './Sedes.css';
-import 'animate.css';
 
 export const Sedes = () => {
   return (

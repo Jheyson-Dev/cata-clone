@@ -144,8 +144,13 @@ export const Header = () => {
                   </div>
                 </li>
                 <li>
-                  <div className='nav-sublink'>
-                    <NavLink>Reseña Historica</NavLink>
+                  <div
+                    className='nav-sublink'
+                    onClick={handleNavClick}
+                  >
+                    <NavLink to={'/resenia_historica'}>
+                      Reseña Historica
+                    </NavLink>
                   </div>
                 </li>
                 <li>

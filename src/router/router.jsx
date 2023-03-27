@@ -3,6 +3,7 @@ import { Administracion } from '../components/pages/Administracion';
 import { ConsejoDirectivo } from '../components/pages/ConsejoDirectivo';
 import { HomePage } from '../components/pages/HomePage';
 import { NosotrosPage } from '../components/pages/NosotrosPage';
+import { ReseniaHistorica } from '../components/pages/ReseniaHistorica';
 import { PublicTemplate } from '../components/templates/PublicTemplate';
 
 export const router = createBrowserRouter([
@@ -28,6 +29,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/resenia_historica',
+        element: <ReseniaHistorica />,
       },
       {
         path: '/organigrama',
