@@ -181,22 +181,42 @@ export const Header = () => {
             </li>
             <li>
               <div className='nav-link'>
-                <NavLink onClick={handleNavClick}>Academia</NavLink>
+                <NavLink
+                  to={'/academia'}
+                  onClick={handleNavClick}
+                >
+                  Academia
+                </NavLink>
               </div>
             </li>
             <li>
               <div className='nav-link'>
-                <NavLink onClick={handleNavClick}>Matricula</NavLink>
+                <NavLink
+                  to={'/matricula'}
+                  onClick={handleNavClick}
+                >
+                  Matricula
+                </NavLink>
               </div>
             </li>
             <li>
               <div className='nav-link'>
-                <NavLink onClick={handleNavClick}>Logros</NavLink>
+                <NavLink
+                  to={'/logros'}
+                  onClick={handleNavClick}
+                >
+                  Logros
+                </NavLink>
               </div>
             </li>
             <li>
               <div className='nav-link'>
-                <NavLink onClick={handleNavClick}>Contacto</NavLink>
+                <NavLink
+                  to={'/contacto'}
+                  onClick={handleNavClick}
+                >
+                  Contacto
+                </NavLink>
               </div>
             </li>
             <li className='mt-10'>
