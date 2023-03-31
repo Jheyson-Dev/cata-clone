@@ -148,7 +148,14 @@ export const Header = () => {
                     className='nav-sublink'
                     onClick={handleNavClick}
                   >
-                    <NavLink>Organigrama</NavLink>
+                    <NavLink
+                      to={
+                        'https://www.canva.com/design/DAFYgHOKw3I/9i-ipR0e5F1BaKCFP46fUA/view?utm_content=DAFYgHOKw3I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+                      }
+                      target='_blank'
+                    >
+                      Organigrama
+                    </NavLink>
                   </div>
                 </li>
                 <li>
@@ -156,7 +163,14 @@ export const Header = () => {
                     className='nav-sublink'
                     onClick={handleNavClick}
                   >
-                    <NavLink>Procesos</NavLink>
+                    <NavLink
+                      to={
+                        'https://www.canva.com/design/DAFYJWqe40k/2_ux35I_XqoMXonpg7PI-Q/view'
+                      }
+                      target='_blank'
+                    >
+                      Procesos
+                    </NavLink>
                   </div>
                 </li>
                 <li>
@@ -164,7 +178,14 @@ export const Header = () => {
                     className='nav-sublink'
                     onClick={handleNavClick}
                   >
-                    <NavLink>PLanificacion Anual</NavLink>
+                    <NavLink
+                      to={
+                        'https://www.canva.com/design/DAFb5zNIqvE/lygkFYV6IACi6kA7p_4D4w/view'
+                      }
+                      target='_blank'
+                    >
+                      PLanificacion Anual
+                    </NavLink>
                   </div>
                 </li>
               </ul>
