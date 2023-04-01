@@ -30,7 +30,7 @@ export const Header = () => {
 
   return (
     <header className='bg-blue-primary px-10 py-2'>
-      <div className='h-20 lg:container lg:mx-auto'>
+      <div className='h-20 lg:container lg:mx-auto hidden lg:block'>
         <div className='h-full flex items-center justify-between'>
           <img
             src={logo}
