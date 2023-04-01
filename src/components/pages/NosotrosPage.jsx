@@ -5,7 +5,7 @@ export const NosotrosPage = () => {
   return (
     <div>
       <Banner text={'Nosotros'} />
-      <div className='flex flex-col gap-10 py-20 px-10'>
+      <div className='flex flex-col gap-10 py-20 px-10 lg:container lg:mx-auto'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
           <div className='shadow-xl border-l-4 border-yellow-primary rounded-md'>
             <div className='flex flex-col gap-5 p-2'>

@@ -9,12 +9,14 @@ export const Carrucel = () => {
         <img
           src={slide1}
           alt='Slide 1'
+          className='w-full'
         />
       </div>
       <div>
         <img
           src={slide2}
           alt='Slide 1'
+          className='w-full'
         />
       </div>
     </Carousel>

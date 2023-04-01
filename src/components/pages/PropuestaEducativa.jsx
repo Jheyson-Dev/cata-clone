@@ -13,8 +13,7 @@ export const PropuestaEducativa = () => {
       <div className='px-10 py-20 flex flex-col gap-5'>
         <Carousel
           autoplay
-          className='sm:w-1/2 sm:mx-auto
-          '
+          className='sm:w-1/2 sm:mx-auto lg:w-1/3'
         >
           <div>
             <img

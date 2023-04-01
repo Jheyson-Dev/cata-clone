@@ -59,7 +59,7 @@ export const Logros = () => {
   return (
     <div>
       <Banner text={'Logros'} />
-      <div className='p-10'>
+      <div className='p-10 lg:container lg:mx-auto'>
         <div className='grid gap-5 sm:gap-10'>
           <div>
             <h2 className='text-3xl text-yellow-primary font-semibold text-center'>
@@ -69,14 +69,14 @@ export const Logros = () => {
           <span className='text-gray-400 text-sm font-semibold text-center'>
             Representamos a la cuidad de Juliaca en cualquier evento...
           </span>
-          <div className='grid grid-cols-2 sm:grid-cols-3 gap-5'>
+          <div className='grid grid-cols-2 sm:grid-cols-3 gap-5 lg:grid-cols-5'>
             {logro.map(({ id, img }) => {
               return (
                 <div key={id}>
                   <Image
                     src={img}
                     alt=''
-                    rootClassName='bg-black'
+                    rootClassName='bg-black lg:bg-transparent'
                     className='rounded-lg shadow-lg'
                   />
                 </div>

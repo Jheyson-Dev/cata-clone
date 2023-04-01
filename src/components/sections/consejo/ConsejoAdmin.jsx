@@ -33,7 +33,7 @@ export const ConsejoAdmin = () => {
     },
   ]);
   return (
-    <div className='grid sm:grid-cols-2 gap-10'>
+    <div className='grid sm:grid-cols-2 gap-10 lg:grid-cols-4'>
       {consejo.map(({ id, img, nombre, cargo }) => {
         return (
           <div
@@ -43,9 +43,9 @@ export const ConsejoAdmin = () => {
             <img
               src={img}
               alt=''
-              className='w-56 hover:scale-110 transition-transform'
+              className='w-56 hover:scale-110 transition-transform lg:w-36'
             />
-            <div className='flex flex-col items-center gap-2'>
+            <div className='flex flex-col items-center gap-2 lg:text-center'>
               <span className='font-semibold text-text-primary text-2xl'>
                 {nombre}
               </span>

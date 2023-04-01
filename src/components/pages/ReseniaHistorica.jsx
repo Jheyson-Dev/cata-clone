@@ -4,7 +4,7 @@ export const ReseniaHistorica = () => {
   return (
     <div>
       <Banner text={'Reseña Historica'} />
-      <div className='flex flex-col gap-10 py-20 px-10'>
+      <div className='flex flex-col gap-10 py-20 px-10 lg:container lg:mx-auto'>
         <div className='shadow-lg '>
           <div className='flex flex-col gap-5 p-2'>
             <h2 className='text-3xl text-text-primary font-semibold border-b-2 border-text-primary py-2'>

@@ -4,8 +4,8 @@ import { SocialMedia } from './SocialMedia';
 export const Footer = () => {
   return (
     <footer className='bg-blue-primary mt-auto px-10 py-10'>
-      <div className='flex flex-col gap-10'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
+      <div className='flex flex-col gap-10 lg:container lg:mx-auto'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10'>
           <div className='flex flex-col gap-5'>
             <h2 className='text-lg text-white font-bold'>Sede Central CATA</h2>
             <div>

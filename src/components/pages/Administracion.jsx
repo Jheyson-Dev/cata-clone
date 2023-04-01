@@ -93,7 +93,7 @@ export const Administracion = () => {
   return (
     <div>
       <Banner text={'Administracion'} />
-      <div className='px-10 py-20'>
+      <div className='px-10 py-20 lg:container lg:mx-auto'>
         <Empleados employee={administradors} />
       </div>
     </div>

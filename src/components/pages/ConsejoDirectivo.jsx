@@ -7,7 +7,7 @@ export const ConsejoDirectivo = () => {
   return (
     <div>
       <Banner text={'Consejo Directivo'} />
-      <div className='px-10 py-10 grid gap-20'>
+      <div className='px-10 py-10 grid gap-20 lg:container lg:mx-auto'>
         <PresidenteDialog />
         <ConsejoAdmin />
       </div>

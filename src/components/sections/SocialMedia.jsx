@@ -8,7 +8,7 @@ export const SocialMedia = ({ color }) => {
   return (
     <div className='flex sm:container  sm:mx-auto justify-between'>
       <div
-        className={`flex  flex-col items-center ${
+        className={`flex  flex-col items-center cursor-pointer ${
           color == 'white' ? 'text-white' : 'text-text-primary'
         } font-bold`}
       >
@@ -19,7 +19,7 @@ export const SocialMedia = ({ color }) => {
         Facebook
       </div>
       <div
-        className={`flex  flex-col items-center ${
+        className={`flex  flex-col items-center cursor-pointer ${
           color == 'white' ? 'text-white' : 'text-text-primary'
         } font-bold`}
       >
@@ -30,7 +30,7 @@ export const SocialMedia = ({ color }) => {
         Youtube
       </div>
       <div
-        className={`flex  flex-col items-center ${
+        className={`flex  flex-col items-center cursor-pointer ${
           color == 'white' ? 'text-white' : 'text-text-primary'
         } font-bold`}
       >
@@ -41,7 +41,7 @@ export const SocialMedia = ({ color }) => {
         WhatsApp
       </div>
       <div
-        className={`flex  flex-col items-center ${
+        className={`flex  flex-col items-center cursor-pointer ${
           color == 'white' ? 'text-white' : 'text-text-primary'
         } font-bold`}
       >

@@ -138,7 +138,7 @@ export const Academia = () => {
           />
         </div>
       </Carousel>
-      <div className='p-10'>
+      <div className='p-10 lg:container lg:mx-auto'>
         <div className='flex flex-col gap-5'>
           <h2 className='uppercase text-xs'>
             Mejoramos la experiencia de aprendizaje
@@ -169,7 +169,7 @@ export const Academia = () => {
           </div>
         </div>
       </div>
-      <div className='p-10 grid sm:grid-cols-2'>
+      <div className='p-10 grid sm:grid-cols-2 lg:container lg:mx-auto'>
         <div>
           <div>
             <h2 className='text-3xl font-semibold text-center text-yellow-primary'>

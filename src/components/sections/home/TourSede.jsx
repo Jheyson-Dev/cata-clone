@@ -5,7 +5,7 @@ import tourVideo from '../../../assets/video/nueva-jerusalen1.mp4';
 export const TourSede = () => {
   return (
     <>
-      <div className='px-10'>
+      <div className='px-10 lg:container lg:mx-auto'>
         <div className='grid grid-cols-1 gap-10'>
           <h2 className='text-3xl font-semibold text-text-primary text-center border-b-8 border-yellow-primary pb-2'>
             Tour Virtual por la Nueva Jerusalén

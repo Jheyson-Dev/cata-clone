@@ -1,9 +1,14 @@
 .nav-link {
-  @apply py-4 text-xl text-text-primary font-semibold font-texto;
+  @apply py-4 text-xl text-text-primary font-semibold font-texto lg:text-white lg:text-base;
 }
 .nav-sublink {
-  @apply py-2 text-xl text-text-primary font-semibold font-texto;
+  @apply py-2 text-xl text-text-primary font-semibold font-texto lg:text-white lg:text-base;
 }
 .nav-button {
-  @apply py-2 flex justify-center items-center gap-2  text-xl bg-yellow-primary w-1/2 text-white font-semibold font-texto rounded-lg;
+  @apply py-2 flex justify-center items-center gap-2  text-xl bg-yellow-primary w-1/2 text-white font-semibold font-texto rounded-lg lg:text-base lg:w-full lg:px-2;
+}
+.nosotros {
+}
+.nav-sublinkLg {
+  @apply text-blue-primary font-semibold font-texto py-1 text-sm hover:bg-blue-primary hover:text-white px-5;
 }

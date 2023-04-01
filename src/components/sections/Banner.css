@@ -3,3 +3,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (min-width: 768px) {
+  .banner {
+    max-height: 90vh;
+    background-position: top center;
+  }
+}

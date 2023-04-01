@@ -10,11 +10,11 @@ export const HomePage = () => {
       <div>
         <Carrucel />
       </div>
-      <div className='px-10 py-20 '>
+      <div className='px-10 py-20 lg:container lg:mx-auto '>
         <Sedes />
       </div>
       <TourSede />
-      <div className='px-10 py-20'>
+      <div className='px-10 py-20 lg:container lg:mx-auto'>
         <Contact />
       </div>
     </div>
