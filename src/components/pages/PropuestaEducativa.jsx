@@ -11,7 +11,11 @@ export const PropuestaEducativa = () => {
     <div>
       <Banner text={'Propuesta Educativa'} />
       <div className='px-10 py-20 flex flex-col gap-5'>
-        <Carousel autoplay>
+        <Carousel
+          autoplay
+          className='sm:w-1/2 sm:mx-auto
+          '
+        >
           <div>
             <img
               src={pilar1}
@@ -45,7 +49,7 @@ export const PropuestaEducativa = () => {
           Descubre más de nuestra metodología por niveles:
         </span>
         <div className='flex justify-center'>
-          <button className=' flex gap-2 items-center bg-blue-500 text-white font-semibold p-3 rounded-md'>
+          <button className=' flex gap-2 items-center bg-blue-500 text-white font-semibold p-3 rounded-md hover:scale-110 transition-transform'>
             <FilePdf
               size={32}
               color='#ffffff'

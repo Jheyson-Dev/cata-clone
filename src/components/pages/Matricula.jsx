@@ -23,7 +23,7 @@ export const Matricula = () => {
         </div>
         <div className='flex justify-center gap-10'>
           <button
-            className={`flex flex-col items-center shadow-md p-5 rounded-md ${
+            className={`flex flex-col items-center shadow-md p-5 sm:px-14 rounded-md ${
               element === 1 ? 'bg-yellow-primary text-white' : 'text-gray-400'
             }`}
             onClick={() => handleElement(1)}
@@ -36,7 +36,7 @@ export const Matricula = () => {
             <span className='text-lg font-semibold'>NUEVO</span>
           </button>
           <button
-            className={`flex flex-col items-center shadow-md p-5 rounded-md ${
+            className={`flex flex-col items-center shadow-md p-5 sm:px-14 rounded-md ${
               element === 2 ? 'bg-yellow-primary text-white' : 'text-gray-400'
             }`}
             onClick={() => handleElement(2)}
@@ -51,31 +51,39 @@ export const Matricula = () => {
         </div>
         <div>
           {element === 1 && (
-            <div className='grid gap-5'>
-              <img
-                src={img2}
-                alt=''
-                className='w-2/3 mx-auto'
-              />
-              <img
-                src={nuevo}
-                alt=''
-                className='w-2/3 mx-auto'
-              />
+            <div className='grid gap-5 sm:grid-cols-2 sm:gap-0'>
+              <div className='justify-self-end'>
+                <img
+                  src={img2}
+                  alt=''
+                  className='w-2/3 mx-auto sm:mx-0 sm:ml-auto'
+                />
+              </div>
+              <div className='justify-self-start'>
+                <img
+                  src={nuevo}
+                  alt=''
+                  className='w-2/3 mx-auto sm:mx-0'
+                />
+              </div>
             </div>
           )}
           {element === 2 && (
-            <div className='grid gap-5'>
-              <img
-                src={antiguo}
-                alt=''
-                className='w-2/3 mx-auto'
-              />
-              <img
-                src={img1}
-                alt=''
-                className='w-2/3 mx-auto'
-              />
+            <div className='grid  gap-5 sm:grid-cols-2 sm:gap-0 place-content-end'>
+              <div className='justify-self-end'>
+                <img
+                  src={antiguo}
+                  alt=''
+                  className='w-2/3 mx-auto sm:mx-0 sm:ml-auto'
+                />
+              </div>
+              <div className='justify-self-start'>
+                <img
+                  src={img1}
+                  alt=''
+                  className='w-2/3 mx-auto sm:mx-0'
+                />
+              </div>
             </div>
           )}
         </div>

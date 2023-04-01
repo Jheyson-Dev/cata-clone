@@ -8,17 +8,17 @@ export const Sedes = () => {
       <h2 className='text-5xl font-semibold text-text-primary text-center border-b-8 border-yellow-primary pb-2 animate__backInLeft animate__bounce'>
         Descubre las nuevas sedes
       </h2>
-      <div className='grid grid-cols-1 gap-5'>
-        <div className='sede1 h-56'>
-          <div className='bg-[rgba(0,0,0,.5)] flex justify-center items-center h-full'>
+      <div className='grid grid-cols-1 gap-5 sm:grid-cols-2'>
+        <div className='sede1 h-56 rounded-lg'>
+          <div className='bg-[rgba(0,0,0,.5)] flex justify-center items-center h-full rounded-lg'>
             <img
               src={fondo1}
               alt=''
             />
           </div>
         </div>
-        <div className='sede2 h-56'>
-          <div className='bg-[rgba(0,0,0,.5)] flex justify-center items-center h-full'>
+        <div className='sede2 h-56 rounded-lg'>
+          <div className='bg-[rgba(0,0,0,.5)] flex justify-center items-center h-full rounded-lg'>
             <img
               src={fondo2}
               alt=''

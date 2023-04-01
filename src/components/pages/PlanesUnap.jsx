@@ -1,12 +1,12 @@
 import { CalendarPlus, Money, Calendar } from 'phosphor-react';
 
-export const PlanesUnap = ({ planes = [] }) => {
+export const Planes = ({ planes = [] }) => {
   return (
     <>
       {planes.map(({ id, title, price, inicio, fin, turno, virtual }) => {
         return (
           <div
-            className='grid grid-cols-1 gap-5 shadow-lg rounded-lg pb-10'
+            className='grid gap-5 shadow-lg rounded-lg pb-10'
             key={id}
           >
             <div className='bg-blue-primary text-white text-2xl font-bold text-center rounded-t-lg py-5 uppercase'>

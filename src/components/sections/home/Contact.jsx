@@ -3,18 +3,19 @@ import './Contact.css';
 
 export const Contact = () => {
   return (
-    <div className='grid grid-cols-1 gap-5'>
+    <div className='grid grid-cols-1 gap-5 '>
       <h2 className='text-5xl font-semibold text-yellow-primary text-center'>
         Contáctanos
       </h2>
-      <div className='grid grid-cols-1 gap-20 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-20 '>
         <div className='flex justify-center'>
           <img
             src={contact}
             alt=''
+            className='object-contain'
           />
         </div>
-        <div>
+        <div className='shadow-2xl p-5 rounded-lg'>
           <h2 className='text-2xl font-semibold text-center text-text-primary'>
             Conoce nuestra propuesta educativa
           </h2>
@@ -102,11 +103,11 @@ export const Contact = () => {
                 className='input-contact'
               >
                 <option defaultChecked>Seleccione</option>
-                <option value='1_secundaria'>Secundaria</option>
-                <option value='2_secundaria'>Secundaria</option>
-                <option value='3_secundaria'>Secundaria</option>
-                <option value='4_secundaria'>Secundaria</option>
-                <option value='5_secundaria'>Secundaria</option>
+                <option value='1_secundaria'>1° Secundaria</option>
+                <option value='2_secundaria'>2° Secundaria</option>
+                <option value='3_secundaria'>3° Secundaria</option>
+                <option value='4_secundaria'>4° Secundaria</option>
+                <option value='5_secundaria'>5° Secundaria</option>
               </select>
             </div>
             <div className='flex flex-col gap-2'>

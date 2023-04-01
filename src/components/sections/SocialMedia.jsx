@@ -6,7 +6,7 @@ import {
 } from 'phosphor-react';
 export const SocialMedia = ({ color }) => {
   return (
-    <div className='flex  justify-between'>
+    <div className='flex sm:container  sm:mx-auto justify-between'>
       <div
         className={`flex  flex-col items-center ${
           color == 'white' ? 'text-white' : 'text-text-primary'

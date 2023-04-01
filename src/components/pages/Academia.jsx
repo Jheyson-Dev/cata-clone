@@ -4,7 +4,7 @@ import slide1 from '../../assets/img/academia/CATA-Academia-1.webp';
 import slide2 from '../../assets/img/academia/CATA-Academia-2.webp';
 import slide3 from '../../assets/img/academia/CATA-Academia-3.webp';
 import img4 from '../../assets/img/academia/CATA_ACADEMIA-1-1-1.png';
-import { PlanesUnap } from './PlanesUnap';
+import { Planes } from './PlanesUnap';
 
 export const Academia = () => {
   const [cardUna, setCardUna] = useState([
@@ -161,30 +161,32 @@ export const Academia = () => {
                 );
               })}
             </div>
-            <div className='grid grid-cols-1 gap-10'>
-              {element === 1 && <PlanesUnap planes={cardUna} />}
-              {element === 2 && <PlanesUnap planes={cardUnsa} />}
-              {element === 3 && <PlanesUnap planes={cardUnaj} />}
+            <div className='grid sm:grid-cols-3 gap-10'>
+              {element === 1 && <Planes planes={cardUna} />}
+              {element === 2 && <Planes planes={cardUnsa} />}
+              {element === 3 && <Planes planes={cardUnaj} />}
             </div>
           </div>
         </div>
       </div>
-      <div className='p-10'>
+      <div className='p-10 grid sm:grid-cols-2'>
         <div>
-          <h2 className='text-3xl font-semibold text-center text-yellow-primary'>
-            ¡CONOCE NUESTROS BENEFICIOS, HORARIOS Y MÁS!
-          </h2>
-        </div>
-        <div className='flex flex-col gap-5 my-10'>
-          <button className='border-gray-300 border-2 p-2 rounded-md text-gray-400 uppercase font-semibold hover:border-blue-primary hover:text-blue-primary'>
-            Descargar Folleto Verano
-          </button>
-          <button className='border-gray-300 border-2 p-2 rounded-md text-gray-400 uppercase font-semibold hover:border-blue-primary hover:text-blue-primary'>
-            Descargar Folleto Repaso
-          </button>
-          <button className='border-gray-300 border-2 p-2 rounded-md text-gray-400 uppercase font-semibold hover:border-blue-primary hover:text-blue-primary'>
-            Descargar Folleto intensivo
-          </button>
+          <div>
+            <h2 className='text-3xl font-semibold text-center text-yellow-primary'>
+              ¡CONOCE NUESTROS BENEFICIOS, HORARIOS Y MÁS!
+            </h2>
+          </div>
+          <div className='flex flex-col gap-5 my-10'>
+            <button className='border-gray-300 border-2 p-2 rounded-md text-gray-400 uppercase font-semibold hover:border-blue-primary hover:text-blue-primary'>
+              Descargar Folleto Verano
+            </button>
+            <button className='border-gray-300 border-2 p-2 rounded-md text-gray-400 uppercase font-semibold hover:border-blue-primary hover:text-blue-primary'>
+              Descargar Folleto Repaso
+            </button>
+            <button className='border-gray-300 border-2 p-2 rounded-md text-gray-400 uppercase font-semibold hover:border-blue-primary hover:text-blue-primary'>
+              Descargar Folleto intensivo
+            </button>
+          </div>
         </div>
         <div>
           <img

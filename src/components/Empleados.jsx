@@ -1,6 +1,6 @@
 export const Empleados = ({ employee = [] }) => {
   return (
-    <div className='grid grid-cols-1 gap-10'>
+    <div className='grid sm:grid-cols-3 gap-10'>
       {employee.map(({ id, img, nombre, cargo }) => {
         return (
           <div
@@ -10,13 +10,13 @@ export const Empleados = ({ employee = [] }) => {
             <img
               src={img}
               alt=''
-              className='w-56'
+              className='w-56 hover:scale-110 transition-transform'
             />
             <div className='flex flex-col items-center gap-2'>
-              <span className='font-semibold text-text-primary text-2xl'>
+              <span className='font-semibold text-text-primary text-2xl text-center'>
                 {nombre}
               </span>
-              <span className='text-text-primary  font-thin uppercase'>
+              <span className='text-text-primary  font-thin uppercase text-center'>
                 {cargo}
               </span>
             </div>

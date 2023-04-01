@@ -3,8 +3,8 @@ import contact from '../../assets/img/Contact.png';
 export const Contacto = () => {
   return (
     <div className='p-10'>
-      <div className='grid grid-cols-1 gap-20 '>
-        <div className='grid gap-5'>
+      <div className='grid sm:grid-cols-2 gap-20 sm:gap-0 '>
+        <div className='grid gap-5  rounded-lg shadow-xl py-10 px-5'>
           <h2 className='text-4xl font-semibold text-center text-yellow-primary'>
             Contactanos
           </h2>
@@ -141,7 +141,7 @@ export const Contacto = () => {
           <img
             src={contact}
             alt=''
-            className='w-2/3'
+            className='w-2/3 object-contain sm:w-full'
           />
         </div>
       </div>

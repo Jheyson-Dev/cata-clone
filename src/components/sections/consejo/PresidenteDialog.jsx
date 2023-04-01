@@ -3,7 +3,7 @@ import { Quotes } from 'phosphor-react';
 
 export const PresidenteDialog = () => {
   return (
-    <div className='grid gap-5'>
+    <div className='grid sm:grid-cols-2 sm:place-items-center gap-5'>
       <div className='flex flex-col gap-2'>
         <img
           src={presiImg}
